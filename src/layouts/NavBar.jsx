@@ -95,17 +95,16 @@ export const NavBar = ({ menuOpen, setMenuOpen }) => {
                                         : "text-gray-300 hover:text-white"
                                 }`}
                             >
-                                {link.label}
-                                {activeSection === link.href.slice(1) && (
-                                    <span className="absolute bottom-0 left-1/2 -translate-x-1/2 w-1 h-1 bg-blue-500 rounded-full"></span>
-                                )}
                                 <span
-                                    className={`absolute inset-0 rounded-lg bg-blue-500/10 transition-opacity duration-300 ${
+                                    className={`absolute inset-0 rounded-lg bg-blue-500/10 transition-opacity duration-300 -z-10 ${
                                         activeSection === link.href.slice(1)
                                             ? "opacity-100"
                                             : "opacity-0 hover:opacity-100"
                                     }`}
                                 ></span>
+                                {activeSection === link.href.slice(1) && (
+                                    <span className="absolute bottom-0 left-1/2 -translate-x-1/2 w-1 h-1 bg-blue-500 rounded-full"></span>
+                                )}
                                 <span className="relative z-10">{link.label}</span>
                             </a>
                         ))}

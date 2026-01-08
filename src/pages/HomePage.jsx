@@ -20,12 +20,7 @@ export const HomePage = () => {
 
                     {/* LEFT - Text */}
                     <div className="md:w-1/2 text-center md:text-left">
-                        <div className="mb-4">
-                            <span className="inline-block px-4 py-2 bg-blue-500/10 border border-blue-500/30 rounded-full text-blue-400 text-sm font-medium">
-                                👋 Welcome to my portfolio
-                            </span>
-                        </div>
-
+                        
                         <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-500 via-cyan-400 to-blue-500 bg-clip-text text-transparent leading-tight animate-gradient bg-[length:200%_auto]">
                             Hi, I am Niyo White
                         </h1>
@@ -82,7 +77,7 @@ export const HomePage = () => {
                                 <img
                                     src={myPhoto}
                                     alt="Niyo White"
-                                    className="w-80 h-80 rounded-full shadow-2xl object-cover border-4 border-white/10 hover:border-blue-500/30 transition-all duration-300 hover:scale-105"
+                                    className="w-70 h-80 rounded-full shadow-2xl object-cover border-4 border-white/10 hover:border-blue-500/30 transition-all duration-300 hover:scale-105"
                                 />
                                 {/* Decorative ring */}
                                 <div className="absolute inset-0 rounded-full border-2 border-blue-500/20 animate-ping" style={{ animationDuration: '3s' }}></div>

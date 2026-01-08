@@ -7,14 +7,14 @@ export const ProjectsPage = () => {
             title: "Eunoia",
             description: "Developed a full-stack mental health application with a clean, intuitive user interface using React.js and built a scalable and maintainable backend with Java and Spring Boot capable of handling various types of user requests.",
             tech: ["React", "Java", "JavaScript", "SpringBoot", "PostgreSQL"],
-            link: "https://github.com/niyoxx",
+            link: "https://eunoia-frontend-new.vercel.app/",
             gradient: "from-blue-500 to-cyan-400"
         },
         {
             title: "Fixnex",
             description: "Developed a personal finance tracker that can help you manage and save your money. Implemented reusable components and styling using Tailwind CSS for a modern, responsive user experience.",
             tech: ["React", "JavaScript", "Tailwind CSS"],
-            link: "https://github.com/niyoxx",
+            link: "https://niyoxx.github.io/fixnex-frontend/",
             gradient: "from-cyan-400 to-blue-500"
         }
     ];

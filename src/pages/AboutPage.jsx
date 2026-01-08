@@ -227,9 +227,9 @@ export const AboutPage = () => {
                                 <div className="pl-6 border-l-2 border-white/10">
                                     <p className="text-sm font-medium text-gray-300 mb-2">Relevant Coursework:</p>
                                     <p className="text-sm text-gray-400 leading-relaxed">
-                                        Computer Programming Fundamentals I & II, Data Structures and Algorithms, 
-                                        Software Design Methods, Networking, Theory of Programming Language, 
-                                        Data Security & Cryptography, Advanced Data Structures
+                                        Computer Fundamentals, Data Structures & Algorithms, Software Design Methods, Advanced
+Data Structures, Networking, Theory of Programming Languages, Data Security & Cryptography, Computer
+Architecture, Database Management Systems
                                     </p>
                                 </div>
                             </div>
